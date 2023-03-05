@@ -1,0 +1,466 @@
+/*  google front  */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1,h2,h3,h4,h5,h6 ,a,span{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  google front end   */
+
+/*  nav css start */
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+    font-weight: 800;
+}
+.navbar-light .navbar-brand:hover{
+    color: beige;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+    font-weight: 600;
+}
+.btn-outline-success {
+    padding: 10px 30px ;
+    color: #040303;
+    background-color: aquamarine;
+    font-weight: 600;
+}
+.btn-outline-success:hover{
+    background-color: aliceblue;
+    color: #000;
+}
+
+.btn{
+    padding: 10px 30px ;
+    background-color: aquamarine;
+    border: aquamarine;
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 30px;
+   margin-left: 10px;
+}
+
+/*  pop up box start */
+
+
+.popup{
+    margin-top: 12rem;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px ;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+   visibility: visible;
+   top: 50%; 
+   transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img{
+    max-width: 100%;
+    width: 100px;
+     margin-top: -40px;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.popup h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 30px 0 10px ;
+}
+.popup .buton{
+    margin: 20px 0;
+   width: 100%; 
+   margin-top: 10px 0 ;
+   background-color: #6fd649;
+   color: #fff;
+   border: 0;
+   outline: none;
+   font-size: 18px;
+   border-radius: 4px;
+   cursor: pointer;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   padding: 10px ;
+
+}
+
+/*  pop up box end  */
+
+
+
+
+
+/*  nav css end  */
+
+/*  header css start  */
+.header{
+ height: 96vh;
+ width: 100%;
+
+}
+.header-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+}
+.left-content{
+    position: relative;
+    top: 40%;
+}
+.left-content h6{
+    color: whitesmoke;
+}
+.left-content h2{
+    margin: 10px 0;
+    color:whitesmoke;
+}
+.left-content h2 span{
+  margin: 10px;
+  color: aquamarine;
+}
+.left-content p{
+    color: whitesmoke;
+}
+.left-content a{
+    margin: 20px 0;
+    display: inline-block;
+    background-color: aquamarine;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    padding: 10px 20px ;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .4s;
+}
+.left-content a:hover{
+    background-color: aqua;
+}
+.header-right img{
+    max-width: 100%;
+    height: 600px;
+}
+/*  header css  end  */
+
+/*  about css start */
+.about-section {
+    background-color: #161616;
+}
+.about-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-left-img img{
+    border-radius: 5%;
+    width: 400px;
+    max-width: 100%;
+    background-color: rgb(57, 66, 66);
+}
+
+.about-content h2{
+    color: whitesmoke;
+}
+.about-content h2 span{
+    color: aquamarine;
+}
+.about-content h4{
+    color: whitesmoke;
+}
+.about-content p{
+     color: whitesmoke;
+     line-height: 1.5rem ;
+}
+.about-content a{
+    display: inline-block;
+    background-color: aquamarine;
+    margin-top: 1.5rem;
+    padding: 10px 40px ;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .4s;
+}
+.about-content a:hover{
+    background-color: aqua;
+}
+
+
+/*  about css end  */
+
+/* service section start  */
+
+.servoce-header{}
+.servoce-header h1 {
+    color: whitesmoke;
+}
+.servoce-header h1 span {
+    color: aquamarine;
+}
+.servoce-header p{
+    color: whitesmoke;
+}
+
+.service-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+
+.card{
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 10px 10px 10px 10px;
+height: 250px;
+background-color:#161616;
+transition: .4s ease-in-out;
+}
+.card:hover{
+    background-color: rgb(27, 76, 60);
+}
+.card i{
+
+display: block;
+font-size: 2rem;  
+color: rgb(32, 162, 171);
+}
+.card h3{
+    margin-top: 10px;
+}
+
+/* service section  end   */
+
+
+/* portfolio css start */
+.portfolio-section{
+    background-color: #161616;
+}
+.portfolio-header span{
+  color: aquamarine;
+}
+.portfolio-manu{
+    text-align: center;
+}
+.portfolio-manu ul{}
+.portfolio-manu ul li{
+    display: inline-block;
+}
+.portfolio-manu ul li a{
+    padding: 10px 20px ;
+     text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+   background-color: aquamarine;
+   border-radius: 5px;
+   font-weight: 500
+}
+.portfolio-manu ul li a:hover{
+    color: rgb(19, 18, 18);
+}
+
+.portfolio-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.portfolio-content img{
+    max-width: 100%;
+}
+.portfolio-content img:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* portfolio css end  */
+
+/*  contact section start  */
+
+
+.containers{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.containers:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("img/bg.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background: url("img/bg.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: aquamarine;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btns{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: aquamarine;
+	color: #040404;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+/*  contact section end  */
+
+
+
+/* footer section start  */
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+    background-color: #161616;
+    padding: 10px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: aquamarine;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+hr{
+    color: aquamarine;
+}
+
+/*responsive*/

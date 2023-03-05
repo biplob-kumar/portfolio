@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--  font asesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"/><link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+  </head>
+  <body >
+
+    <!--   nav  section staret-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-lg-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">BIPLOB</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active mx-2" aria-current="page" href="#">HOME</a></li>
+          <a class="nav-link active mx-2" aria-current="page" href="#">ABOUT</a></li>
+          <a class="nav-link active mx-2" aria-current="page" href="#">PORTFOLIO</a></li>
+          <a class="nav-link active mx-2" aria-current="page" href="#">SERVICE</a></li>
+          <a class="nav-link active mx-2" aria-current="page" href="#">CONTACT</a></li>
+          <a class="nav-link active mx-2" aria-current="page" href="#">FOOTER</a></li>
+     
+        </li>
+
+      </ul>
+      <form class="d-flex">
+        
+        <button class="btn btn-outline-success" type="submit" onclick="openPopup()" >CONTACT</button>
+
+        <div class="popup" id="popup">
+          <img src="./img/404-tick.png" alt="404">
+          <h2>Contact Information</h2>
+          <h6>Phone:01612714870 </h6>
+          <h6><span></span>  biplobkumar125@gmail.com</h6>
+          <button type="buton" class="buton" onclick="closepopup()" >Ok</button>
+      </div>
+
+
+
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <!--   nav  section end ---->
+
+    <!--  header section start -->
+
+    <section class="header bg-dark">
+  <div class="container header-wraper">
+    <div class="header-left">
+      <div class="left-content">
+        <h6>BIPLOB KUMAR</h6>
+        <h2>I AM  A CREATIVE <span>DISIGINER</span> </h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit aliquid adipisci deleniti nobis eum quasi perspiciatis optio eaque, quod iure Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit aliquid adipisci deleniti nobis eum quasi perspiciatis optio eaque, quod iureLorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit aliquid adipisci deleniti nobis eum quasi perspiciatis optio eaque, quod iure.</p>
+        <a href="https://drive.google.com/file/d/1Kr2ANAR9Wa2rjRQzq3XzpoSSRf3nqnub/view?usp=share_link"  >DOWNLOAD CV</a>
+
+    
+
+      </div>
+    </div>
+    <div class="header-right">
+      <img src="./img/background_-removebg-preview.png" alt="">
+    </div>
+  </div>
+    </section>
+
+    <!--  header section end  -->
+
+    <!--  aboout section start -->
+
+    <section class="about-section  py-5">
+      <div class="container about-wraper">
+       <div class="about-left">
+        <div class="about-left-img">
+          <img src="./img/about.png" alt="">
+        </div>
+       </div>
+       <div class="about-right">
+        <div class="about-content py-5 mt-5 ">
+            <h2>ABOUT <span>ME</span></h2>
+            <h4>HELLOW I AM BIPLOB KUMAR </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis ratione, mollitia dicta sed nam laborum atque minima consectetur qui voluptatibus nisi a, ipsum ducimus aperiam minus blanditiis. Ut id dicta voluptas porro officiis sint maiores! Accusantium enim, vel ipsum hic eos molestias debitis ut, ipsa consectetur pariatur quis voluptatumLorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis ratione, mollitia dicta sed nam laborum atque minima consectetur qui voluptatibus nisi a, ipsum ducimus aperiam minus blanditiis. Ut id dicta voluptas porro officiis sint maiores! Accusantium enim, vel ipsum hic eos molestias debitis ut, ipsa consectetur pariatur quis voluptatum.</p>
+               
+            <a href="#">Submit</a>
+
+        </div>
+       </div>
+      </div>
+
+    </section>
+    <!--  aboout section end  -->
+
+    <!--  service section start  -->
+
+    <section class="service-section bg-dark py-5">
+     <div class="servoce-header text-center">
+      <h1>OUR <span>SERVICE </span> </h1>
+      <p>We provider high concider website in service </p>
+     </div>
+    <div class="container service-wraper py-4">
+       <div class="card text-center">
+        <i class="fa-solid fa-paintbrush mt-3"></i>
+        <h3 class="text-white" >Graphics disign </h3>
+        <p class="text-white" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,sunt.</p>
+       </div>
+       <div class="card text-center">
+        <i class="fa-solid fa-computer mt-3"></i>
+        <h3 class="text-white" >Web disign  </h3>
+        <p class="text-white" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,sunt.</p>
+       </div>
+       <div class="card text-center">
+        <i class="fa-solid fa-mobile mt-3"></i>
+        <h3 class="text-white" >Digital marketing </h3>
+        <p class="text-white" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,sunt.</p>
+       </div>
+       <div class="card text-center">
+        <i class="fa-solid fa-film mt-3"></i>
+        <h3 class="text-white" >Seo marketing</h3>
+        <p class="text-white" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,sunt.</p>
+       </div>
+       <div class="card text-center">
+        <i class="fa-solid fa-film mt-3"></i>
+        <h3 class="text-white" >Graphics disign </h3>
+        <p class="text-white" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,sunt.</p>
+       </div>
+       <div class="card text-center">
+        <i class="fa-solid fa-film mt-3"></i>
+        <h3 class="text-white" >Graphics disign </h3>
+        <p class="text-white" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,sunt.</p>
+       </div>
+       <div class="card text-center">
+        <i class="fa-solid fa-film mt-3"></i>
+        <h3 class="text-white" >Graphics disign </h3>
+        <p class="text-white" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,sunt.</p>
+       </div>
+       <div class="card text-center">
+        <i class="fa-solid fa-film mt-3"></i>
+        <h3 class="text-white" >Graphics disign </h3>
+        <p class="text-white" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,sunt.</p>
+       </div>
+       
+    </div>
+    </section>
+
+    <!--  service section end  -->
+
+
+    <!--  portfolio-section start -->
+
+<section class="portfolio-section py-5">
+  <div class="container">
+    <div class="portfolio-header text-white">
+      <h1> My <span> Portfolio</span> </h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="portfolio-manu py-4">
+      <ul>
+        <li><a href="#">All catagory </a></li>
+        <li><a href="#">Webdisign </a></li>
+        <li><a href="#">Client website </a></li>
+        <li><a href="#">Photography </a></li>
+        <li><a href="#">Webdevelopment </a></li>
+      </ul>
+    </div>
+  </div>
+
+<div class="container portfolio-wraper">
+
+<div class="portfolio-content py-2">
+   <img src="./img/politician.png" alt="">
+</div>
+<div class="portfolio-content py-2">
+  <img src="./img/content-writer.png" alt="">
+</div>
+<div class="portfolio-content py-2">
+  <img src="./img/home-designer.png" alt="">
+</div>
+<div class="portfolio-content py-2">
+  <img src="/img/home-developer.png" alt="">
+</div>
+<div class="portfolio-content py-2">
+  <img src="/img/home-developer.png" alt="">
+</div>
+<div class="portfolio-content py-2">
+<img src="./img/home-instructor.png" alt="">
+</div>
+<div class="portfolio-content py-2">
+  <img src="/img/home-developer.png" alt="">
+</div>
+<div class="portfolio-content py-2">
+  <img src="/img/home-designer.png" alt="">
+</div>
+
+  
+</div>
+</section>
+
+    <!--  portfolio-section end  -->
+
+
+    <!--  contact section start  -->
+
+<section class="contact-section bg-dark">
+  <div class="contact-header text-white text-center py-5">
+    <h1>Contact <span>Us</span>  </h1>
+  </div>
+  <div class="containers contact-wraper">
+   
+    <div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="text" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<button class="btns">Send</button>
+			</div>
+		</div>
+
+  </div>
+
+</section>
+
+    <!--  contact section  end   -->
+
+    <footer class="footer ">
+      <div class="container">
+        <div class="row ">
+          <div class="footer-col py-5">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col py-5">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col py-5">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">watch</a></li>
+              <li><a href="#">bag</a></li>
+              <li><a href="#">shoes</a></li>
+              <li><a href="#">dress</a></li>
+            </ul>
+          </div>
+          <div class="footer-col py-5">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="end">
+        <hr>
+        <p class="text-center text-white py-2" >@All right reserve by biplob kumar </p>
+       </div>
+   </footer>
+
+ 
+
+ 
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="index.js">
+
+    </script>
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+  </body>
+</html>
